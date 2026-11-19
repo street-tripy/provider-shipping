@@ -48,11 +48,22 @@ new supplier is a row, not a code change.
   [Tapstitch Shipping Method](https://github.com/street-tripy/tapstitch-shipping-method)
   plugin). Providers with no working rate source are reported as unusable, never priced as free.
 
+## Download
+
+The install-ready zip is on the [latest release](https://github.com/street-tripy/provider-shipping/releases/latest):
+[`provider-shipping-0.1.7.zip`](https://github.com/street-tripy/provider-shipping/releases/latest/download/provider-shipping-0.1.7.zip)
+— one folder inside, `provider-shipping/`, so it uploads straight into WordPress.
+
 ## Install
+
+**In WordPress:** *Plugins → Add New → Upload Plugin* → choose the zip → *Install Now* → *Activate*.
+
+**By FTP:** unzip and upload the folder to
 
 ```
 wp-content/plugins/provider-shipping/
 ```
+
 then activate. Settings → Shipping → **Providers** is the registry. The pipeline starts **Off**, so
 installation changes nothing.
 

@@ -77,6 +77,8 @@ settable over REST.
 
 == Installation ==
 
+Easiest: download `provider-shipping-0.1.7.zip` from the repository's [latest release](https://github.com/street-tripy/provider-shipping/releases/latest) and use *Plugins → Add New → Upload Plugin* in WordPress (the zip contains one folder, `provider-shipping/`).
+
 1. Upload `provider-shipping` to `/wp-content/plugins/`.
 2. Activate the plugin.
 3. Go to *Settings → Shipping → Providers* and add one row per supplier: the shipping method that
